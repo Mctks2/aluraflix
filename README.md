@@ -30,6 +30,7 @@ Este projeto permite criar, editar e excluir jogos com uma interface amigável e
 - CSS in JS
 - React.js
 - Node.js
+- Vite
 
 ## 🚧 Layout
 
