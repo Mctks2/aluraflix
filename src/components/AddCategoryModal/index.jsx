@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import  xButton  from "/images/x-button.png"
+import xButton from "/images/x-button.png"
+import { useState } from "react";
 import { useGamesContext } from "../../context/Games";
-import { NewCategoryForm } from "../NewCategoryForm";
+import NewCategoryForm from "../NewCategoryForm";
 
 
 const Overlay = styled.div`
@@ -50,7 +51,7 @@ const StyledModalButton = styled.button`
     cursor: pointer;
 `
 
-export function AddCategoryModal(){
+const AddCategoryModal = () => {
     const gameContext = useGamesContext()
     
     return (
@@ -67,3 +68,5 @@ export function AddCategoryModal(){
         </>
     )
 }
+
+export default AddCategoryModal

@@ -38,7 +38,7 @@ const StyledTextArea = styled.textarea`
     }
 `
 
-export function FormTextArea ({color, label,id,value,placeholder,handleChange}){
+const FormTextArea = ({color, label,id,value,placeholder,handleChange}) =>{
     const [isValid, setIsValid]= useState(true)
     return(
         <StyledFormTextArea>
@@ -62,3 +62,4 @@ export function FormTextArea ({color, label,id,value,placeholder,handleChange}){
     )
 }
 
+export default FormTextArea

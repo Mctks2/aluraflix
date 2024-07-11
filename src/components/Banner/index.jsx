@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { useGamesContext } from "../../context/Games";
-import { CategoryTitle } from "../CategoryTitle";
+import CategoryTitle from "../CategoryTitle";
 import { Link } from "react-router-dom";
 
 const StyledBanner = styled.div`
@@ -46,7 +46,7 @@ const StyledBanner = styled.div`
     }
 `
 
-export function Banner(){
+const Banner = () =>{
     const games = useGamesContext().games
     const categories = useGamesContext().categories
 
@@ -74,3 +74,7 @@ export function Banner(){
         </Link>
     )
 }
+
+
+
+export default Banner

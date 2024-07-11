@@ -2,8 +2,9 @@ import axios from "axios";
 import { createContext, useContext, useEffect, useState } from "react";
 
 
-const gamesApiUrl = 'https://my-json-server.typicode.com/Mctks2/aluraflix-api/games'
-const categoriesApiUrl = 'https://my-json-server.typicode.com/Mctks2/aluraflix-api/categories'
+ const gamesApiUrl = 'https://my-json-server.typicode.com/Mctks2/aluraflix-api/games'
+ const categoriesApiUrl = 'https://my-json-server.typicode.com/Mctks2/aluraflix-api/categories'
+
 export const GamesContext = createContext();
 GamesContext.displayName = 'Games'
 

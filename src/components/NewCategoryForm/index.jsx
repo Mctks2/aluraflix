@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import FormInput from "../Form/FormInput"
 import { useState } from "react"
-import { useGamesContext } from "../../context/Games"
+import { GamesContext, useGamesContext } from "../../context/Games"
 
 
 const StyledNewCategoryForm = styled.form`
@@ -23,7 +23,7 @@ const StyledNewCategoryButton = styled.button`
     border-radius: 15px;
     align-self: center;
 `
-export function NewCategoryForm() {
+const NewCategoryForm = () => {
     const gameContext = useGamesContext()
     const [newCategory, setNewCategory] = useState("")
     const [newColor, setNewColor] = useState("#000000")
@@ -65,3 +65,4 @@ export function NewCategoryForm() {
     )
 }
 
+export default NewCategoryForm

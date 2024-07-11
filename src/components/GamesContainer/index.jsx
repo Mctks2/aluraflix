@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { useGamesContext } from "../../context/Games"
-import { CategoryContainer } from "../CategoryContainer"
+import CategoryContainer from "../CategoryContainer"
 
 
 const StyledGamesContainer = styled.main`
@@ -12,7 +12,7 @@ const StyledGamesContainer = styled.main`
     padding: 0 10px;
 `
 
-export function GamesContainer(){
+const GamesContainer = () =>{
     const categories = useGamesContext().categories
     const games = useGamesContext().games
 
@@ -33,3 +33,4 @@ export function GamesContainer(){
     )
 }
 
+export default GamesContainer

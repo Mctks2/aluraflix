@@ -40,7 +40,7 @@ const StyledInput = styled.input`
     }
 `
 
-export function FormInput({color,label,id,type,value,placeholder,handleChange}){
+const FormInput = ({color,label,id,type,value,placeholder,handleChange}) =>{
     const [isValid, setIsValid]= useState(true)
     return(
         <StyledFormInput>
@@ -65,3 +65,5 @@ export function FormInput({color,label,id,type,value,placeholder,handleChange}){
         </StyledFormInput>
     )
 }
+
+export default FormInput

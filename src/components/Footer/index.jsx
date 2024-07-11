@@ -17,10 +17,12 @@ const StyledFooter = styled.footer`
     }
 `
 
-export function Footer(){
+const Footer = () => {
     return(
     <StyledFooter>
         <img src="/images/logo.png" alt="logo da AluraFlix" />
     </StyledFooter>    
     )
 }
+
+export default Footer

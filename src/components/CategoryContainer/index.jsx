@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { GameCard } from "../GameCard"
-import { CategoryTitle } from "../CategoryTitle"
+import GameCard from "../GameCard"
+import CategoryTitle from "../CategoryTitle"
 
 
 const StyledGameCardContainer = styled.div`
@@ -26,7 +26,7 @@ const StyledGameCardContainer = styled.div`
     }
 `
 
-export function CategoryContainer({categories, games}){
+const CategoryContainer = ({categories, games}) =>{
     const hasGames = games.length > 0
     return(
         hasGames 
@@ -40,3 +40,5 @@ export function CategoryContainer({categories, games}){
             </> 
     )
 }
+
+export default CategoryContainer

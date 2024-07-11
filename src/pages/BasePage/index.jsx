@@ -1,13 +1,20 @@
-import { Footer } from "../../components/Footer";
-import GlobalStyle from "../../components/GlobalStyle/GlobalStyles";
-import { Header } from "../../components/Header";
+import { Outlet } from "react-router-dom"
+import GlobalStyle from "../../components/GlobalStyle/GlobalStyles"
+import Header from "../../components/Header"
+import GamesProvider from "../../context/Games"
+import Footer from "../../components/Footer"
 
-export function BasePage() {
-  return (
-    <>
-      <GlobalStyle />
-      <Header />
-      <Footer />
-    </>
-  );
+const BasePage = () =>{
+    return(
+        <>
+            <GlobalStyle />
+            <Header />
+                <GamesProvider>
+                    <Outlet />
+                </GamesProvider>
+            <Footer />
+        </>
+    )
 }
+
+export default BasePage

@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { AppRoutes } from './routes'
+import AppRoutes from './routes'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AppRoutes/>
+    <AppRoutes />
   </React.StrictMode>,
 )

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import styled from "styled-components"
-import { Button } from "../Button"
+import Button from "../Button"
 import homeIcon from "/images/home.png"
 import newVideoIcon from "/images/new-video.png"
 
@@ -25,7 +25,7 @@ const StyledNavDiv = styled.div`
 `
 
 
-export function NavItem({url, image, activeImage, children, reverse}){
+const NavItem = ({url, image, activeImage, children, reverse}) => {
     const activeRoute = useLocation().pathname;
     const [screenSize, setScreenSize] = useState(window.innerWidth)
     
@@ -63,3 +63,5 @@ export function NavItem({url, image, activeImage, children, reverse}){
             </StyledNavDiv>
     )
 }
+
+export default NavItem

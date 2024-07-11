@@ -2,65 +2,60 @@
   "games": [
     {
       "id": 1,
-      "title": "Papers Please",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
-      "link": "https://www.youtube.com/embed/DmqkpRaSg2g?si=LgIy7URA2-N9Rpr8",
-      "system": "PC",
-      "description": "Congratulações. A loteria de outubro foi concluída. Seu nome foi selecionado.Compareça ao Ministério da Admissão no Posto da Fronteira de Grestin para relocação imediata.Um apartamento será providenciado para você e sua família em Grestin Leste.Glória à Arstotzka."
+      "title": "Grand Theft Auto: Vice City",
+      "cover": "https://i.iplsc.com/grand-theft-auto-vice-city/000DOZQ08UI1KVNL-C122-F4.webp",
+      "link": "https://www.youtube.com/embed/m8oQllwqw_I",
+      "system": "Ação e Aventura",
+      "description": "O jogo se passa na cidade ficcional de Vice City na década de 1980, com a história seguindo o mafioso Tommy Vercetti na construção de seu império criminal e confrontos com outras organizações criminais da cidade. O mundo aberto permite que os jogadores naveguem livremente pelas ilhas que formam a cidade."
     },
     {
       "id": 2,
-      "title": "The House of the Dead Remake",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1694600/header.jpg?t=1691049548",
-      "link": "https://www.youtube.com/embed/eYFVQaqpFQc",
-      "system": "Nintendo Switch",
-      "description": "THE HOUSE OF THE DEAD: Remake é uma versão remodelada de um jogo de 1997. um jogo de tiro classico de arcade recebe mudanças na gameplay para se enquadrar nos padrões de jogos atuais."
+      "title": "Red Dead Redemption 2",
+      "cover": "https://files.tecnoblog.net/wp-content/uploads/2020/07/red-dead-redemption-2-e1614093915590.jpg",
+      "link": "https://www.youtube.com/embed/gmA6MrX81z4",
+      "system": "Ação e Aventura",
+      "description": "Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto desenvolvido pela Rockstar Games. O jogo se passa em 1899, no final da era do Velho Oeste, e segue a história do fora-da-lei Arthur Morgan, membro da gangue Van der Linde."
     },
     {
       "id": 3,
-      "title": "Mega Man 11",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1701220165",
-      "link": "https://www.youtube.com/embed/FVSvd7Qnkq0",
-      "system": "Nintendo Switch",
-      "description": "Mega Man está de volta à ação! A mais nova entrada na série que vendeu milhões mistura a clássica desafiadora ação de plataforma 2D com um novo estilo visual. O novo sistema de equipamento duplo adiciona uma novidade à satisfatória jogabilidade pela qual a série é conhecida."
+      "title": "Grand Theft Auto V",
+      "cover": "https://cdn.awsli.com.br/2500x2500/1610/1610163/produto/177700809/poster-grand-theft-auto-v-gta-5-b-5ceeda64.jpg",
+      "link": "https://www.youtube.com/embed/QkkoHAzjnUs",
+      "system": "Mundo Aberto",
+      "description": "Grand Theft Auto V, popularmente conhecido como GTA V, é um jogo eletrônico de ação e aventura lançado em 2013 para o PS3. Desenvolvido pela Rockstar North, o jogo se passa na cidade fictícia de Los Santos, inspirada em Los Angeles, e no condado rural de Blaine County, no sul da Califórnia."
     },
     {
       "id": 4,
-      "title": "God of War III Remastered",
-      "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2917/oqIXDTKAcEOwAPzM7GhEZ0rW.jpg",
-      "link": "https://www.youtube.com/embed/4z93rQGZP1Y",
-      "system": "PlayStation 4",
-      "description": "God of War III Remasterizado é o jogo para um jogador aclamado pela crítica que permite ao jogador assumir o papel do destemido ex-guerreiro espartano Kratos, em sua ascensão das profundezas obscuras de Hades para escalar as altitudes do Monte Olimpo e buscar sua vingança sangrenta contra aqueles que o traíram."
+      "title": "Red Dead Redemption",
+      "cover": "https://upload.wikimedia.org/wikipedia/pt/f/f3/Red_Dead_Redemption_capa.png",
+      "link": "https://www.youtube.com/embed/-o7rES_3ymA",
+      "system": "Mundo Aberto",
+      "description": "Red Dead Redemption é um jogo eletrônico faroeste de ação aventura jogado em uma perspectiva de terceira pessoa em um mundo aberto. O jogador controla John Marston, podendo interagir com o ambiente e entrar em combate contra inimigos usando diferentes armas."
     },
     {
       "id": 5,
-      "title": "Fable Anniversary",
-      "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg?t=1577393306",
-      "link": "https://www.youtube.com/embed/cQwFCnibkhM",
-      "system": "PC",
-      "description": "Para cada escolha uma consequencia. Totalmente Remasterizado com visuais HD, Fable Anniversary é uma incrível recaptulação do jogo original that vai agradar os fans e novos jogadores! A nova dificuldade heróica vai testar a fervor até os jogadores mais aficcionados. "
+      "title": "Max Payne 3",
+      "cover": "https://gaming-cdn.com/images/products/7034/616x353/max-payne-3-complete-pack-complete-pack-pc-jogo-rockstar-cover.jpg?v=1706806594",
+      "link": "https://www.youtube.com/embed/4Uc_dbG7MR8",
+      "system": "Tiro em Terceira Pessoa",
+      "description": "O jogo decorre em São Paulo, Brasil, onde Payne está trabalhando na sector da segurança privada para uma rica família local, oito anos após os eventos do segundo jogo. Max Payne agora trabalha na proteção de executivos para os ricos Rodrigo Branco, na esperança de escapar às lembranças conturbadas do seu passado."
     }
   ],
   "categories": [
     {
       "id": 1,
-      "system": "PC",
+      "system": "Ação e Aventura",
       "color": "#6BD1FF"
     },
     {
       "id": 2,
-      "system": "Nintendo Switch",
+      "system": "Mundo Aberto",
       "color": "#00C86F"
     },
     {
       "id": 3,
-      "system": "PlayStation 4",
+      "system": "Tiro em Terceira Pessoa",
       "color": "#FFBA05"
-    },
-    {
-      "id": 4,
-      "system": "Sega DreamCast",
-      "color": "#85FFAC"
     }
   ]
 }

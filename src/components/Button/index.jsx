@@ -19,7 +19,9 @@ const StyledButton = styled.button`
     }
     
 `
-export function Button({children, isActive}){
+
+
+const Button = ({children, isActive}) => {
     
     return(
         <StyledButton className={isActive?"active":""}>
@@ -28,3 +30,4 @@ export function Button({children, isActive}){
     )
 }
 
+export default Button

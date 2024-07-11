@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { useGamesContext } from "../../context/Games"
-import { Form } from "../Form"
+import Form from "../Form"
 import xButton from "/images/x-button.png"
 
 const Overlay = styled.div`
@@ -50,9 +50,9 @@ const StyledModalButton = styled.button`
     cursor: pointer;
 `
 
-export function EditModal({selectedCard}){
-
+const EditModal = ({selectedCard}) => {
     const gameContext = useGamesContext()
+
 
     function closeModal(){
         gameContext.editCard(null)
@@ -74,3 +74,4 @@ export function EditModal({selectedCard}){
     )
 }
 
+export default EditModal

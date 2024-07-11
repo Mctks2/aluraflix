@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 :root{
     --branco: #FFFFFF;
 	--preto:#000000;
@@ -65,6 +65,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-`;
+`
 
-export default GlobalStyle;
+export default GlobalStyle

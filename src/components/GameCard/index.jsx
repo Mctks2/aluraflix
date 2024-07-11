@@ -60,7 +60,7 @@ const StyledCardButton = styled.button`
     cursor: pointer;
 `
 
-export function GameCard({color, game}){
+const GameCard = ({color, game}) => {
     const gamesContext = useGamesContext()
     return(
         <StyledGameCard >
@@ -81,3 +81,5 @@ export function GameCard({color, game}){
         </StyledGameCard>
     )
 }
+
+export default GameCard
