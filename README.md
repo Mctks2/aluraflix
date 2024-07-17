@@ -2,7 +2,7 @@
 
 Este projeto permite criar, editar e excluir jogos com uma interface amigável e intuitiva.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 1. **Imagem e Descrição Inicial**
    - Visualize imagens, descrições e banners dos jogos na página inicial.
@@ -41,4 +41,6 @@ Este projeto permite criar, editar e excluir jogos com uma interface amigável e
 ## 🎬 Imagens / Vídeos 
 
 ![tela-aluraflix-13](https://github.com/Mctks2/aluraflix/assets/62295808/3fcde14e-6ca9-407c-9c9e-f7879e6fd410)
+
+
 
